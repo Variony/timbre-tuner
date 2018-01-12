@@ -1,0 +1,72 @@
+ <!-- Main Menu Fragment -->
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+android:id="@+id/layout_mainfrag"
+tools:context="com.example.fengwei7.timbretuner.Frag.MainFrag"
+android:orientation="vertical">
+
+<!-- Buttons in XML don't use onClick. Central Listener is used instead
+     Uses Buttons without a List layout since its not necessary for
+     only 5 buttons
+-->
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="12"
+    android:background="@android:color/transparent"
+    />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="18"
+    android:text="Add Target"
+    android:id="@+id/btn_title_add"
+    android:textSize="35dp"
+    android:background="@drawable/btn_bg"
+    />
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="7"
+    android:background="@android:color/transparent"
+    />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="18"
+    android:text="View Target"
+    android:textSize="35dp"
+    android:id="@+id/btn_title_view"
+    android:background="@drawable/btn_bg"/>
+<!--  android:layout_below="@id/mmAddButton"/> -->
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="7"
+    android:background="@android:color/transparent"
+    />
+
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="18"
+    android:textSize="35dp"
+    android:text="Back"
+    android:id="@+id/btn_back"
+    android:background="@drawable/btn_bg"/>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="12"
+    android:background="@android:color/transparent"
+    />
+
+</LinearLayout>
+

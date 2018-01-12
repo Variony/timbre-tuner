@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/std_rec_cmp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fengwei7.timbretuner.RecordingActivity"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/rec_text"
+        android:text="Press Start to Record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StartStopButton"
+        android:text="Start"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg"
+        android:layout_marginBottom="50dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView_recording"
+        android:layout_below="@+id/rec_text"
+        />
+  <!--  <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_above="@+id/StartStopButton"
+        android:layout_centerHorizontal="true" android:id="@+id/standardButton"
+        android:background="@drawable/btn_bg"/>
+-->
+
+</RelativeLayout>

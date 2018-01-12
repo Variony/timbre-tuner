@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/std_enter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Enter Title"
+        android:textSize="30dp"
+        android:inputType="text"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="12"
+        android:background="@android:color/transparent"
+        />
+    <EditText
+        android:id="@+id/std_enter_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Enter Commment"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp"
+        android:inputType="textLongMessage"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:background="@android:color/transparent"
+        />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="18">
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="40"
+            android:src="@drawable/play"
+            >
+        </ImageView>
+       <Button
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        android:text="Play"
+        android:id="@+id/btn_play"
+        android:textSize="24dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="10dp"
+    />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:background="@android:color/transparent"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="18"
+        android:text="Record Target"
+        android:textSize="24dp"
+        android:id="@+id/btn_add_new"
+        android:background="@drawable/btn_bg"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"/>
+    <!--  android:layout_below="@id/mmAddButton"/> -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:background="@android:color/transparent"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="18"
+        android:textSize="24dp"
+        android:text="Confirm"
+        android:id="@+id/btn_add_confirm"
+        android:background="@drawable/btn_bg"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+        android:background="@android:color/transparent"
+        />
+</LinearLayout>

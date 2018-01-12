@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/UserRecAdapter">
+
+    <TextView
+        android:id="@+id/rank_list_rank"
+        android:layout_width="0dip"
+        android:layout_weight="30"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/rank_list_user"
+        android:layout_width="0dip"
+        android:layout_weight="40"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/rank_list_score"
+        android:layout_width="0dip"
+        android:layout_weight="40"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+
+
+
+</LinearLayout>
